@@ -10,7 +10,7 @@ def main(page: ft.Page):
     key: str = os.environ.get("SUPABASE_KEY")
     supabase: Client = create_client(url, key)
     
-    aa = ft.Text('안녕하세요')
+    aa = ft.Text('hello')
     page.add(aa)
     pass
 
